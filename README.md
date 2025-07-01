@@ -1,4 +1,4 @@
-## Hi there 👋 I am looking for part-time jobs！
+## Hi there 👋 I am looking for part-time jobs！How to reach me: 13033853935@163.com/Wechat：Eden-Oligei
 
 <!--
 
