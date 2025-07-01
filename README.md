@@ -5,7 +5,7 @@
 - 🔭 I’m currently working on single-cell
 - 🌱 I’m currently learning Machine Learning and Deep Learning
 - 👯 I’m looking to collaborate on Universities, research institutions, and students
-- 💬 Ask me about Ask bioinformatics and data analysis
+- 💬 Ask me about bioinformatics and data analysis
 - 📫 How to reach me: 13033853935@163.com/Wechat：Eden-Oligei
 - 🧬 Skills:RNA-Seq, proteomics,lipidomics, metabolomics, single-cell, mNGS, 16S, CUT&Tag，linux-Ubuntu system installation,Installation and configuration of third-generation nanopore sequencing system，Genome assembly (de novo assembly/mapping assembly)
 
