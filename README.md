@@ -13,12 +13,13 @@
   根据质谱数据，提取物质ID/gene、样本丰度数据；进行数据log转化、标准化，样本分布可视化，样本间相关性分析，PCA降维聚类，limma/edgeR差异分析，对差异基因进行logFC,FDR筛选作火山图/热图，对差异基因进行GO/KEGG通路富集分析并作图
 3.single-cell
 上游分析：cellranger；seeksoultools；STRTseq
-下游分析：分析信息构建，读取数据创建Seurat对象，样本合并，线粒体比例统计，细胞周期评估，过滤空细胞或双细胞，标准化，降维聚类，去批次效应；可视化：dimplot，featureplot，dotplot；细胞注释：singleR，文献阅读,结合featureplot，dimplot;细胞类型组成分析，统计比例/miloR;cellchat细胞间相互作用分析，配受体分析；monocle/monocle3/slingshot,拟时序分析；SCENIC转录因子分析；
+下游分析：分析信息构建，读取数据创建Seurat对象，样本合并，线粒体比例统计，细胞周期评估，过滤空细胞或双细胞，标准化，降维聚类，去批次效应；可视化：dimplot，featureplot，dotplot；细胞注释：singleR，文献阅读,结合featureplot，dimplot;细胞类型组成分析，统计比例/miloR;cellchat细胞间相互作用分析，配受体分析；monocle/monocle3/slingshot,拟时序分析；SCENIC转录因子分析
 4.mNGS
 5.16S
-上游分析：数据质控，过滤，准备样本信息文件，使用qimme2对16S数据进行分析，获取矩阵文件；
+上游分析：数据质控，过滤，准备meta和manifest文件，使用qimme2对16S数据进行分析，获取矩阵文件；
 下游分析：alpha、beta多样性，物种组成分析，差异物种分析，LefSE分析，随机森林分析，差异物种热图、火山图，相关性分析
 6.CUT&Tag
+  数据质控，过滤，bowtie2比对，samtools文件转换,sammamba去除重复序列，macs2 callpeak,ChIPseeker注释、统计、可视化；HOMER进行motif富集分析
 7.linux-Ubuntu system installation
   装机U盘制作，操作系统iso文件下载，系统安装，硬盘分区
 8.nanopore sequencing system and data analysis（microbiome）
